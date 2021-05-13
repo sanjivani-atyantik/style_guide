@@ -1,0 +1,452 @@
+.h1,
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.h2,
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+.h3,
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.h4,
+h4 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.h5,
+h5 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  height: 3rem;
+  padding: 1rem 1.25rem;
+  background-image: none;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: rgba(2, 2, 11, 0.85);
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #6C41D9;
+  border-color: #6C41D9;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #5834B1;
+  border-color: #5834B1;
+}
+
+.btn-primary:disabled {
+  background-color: #DEE1E3;
+  border-color: #DEE1E3;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  color: #02020B;
+  background-color: #FDBF2D;
+  border-color: #FDBF2D;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
+  background-color: #EEAF1B;
+  border-color: #EEAF1B;
+}
+
+.btn-secondary:disabled {
+  background-color: #DEE1E3;
+  border-color: #DEE1E3;
+  color: #929BA0;
+}
+
+.btn-lg {
+  height: 3.5rem;
+  padding: 1.125rem 1.25rem;
+}
+
+.btn-md {
+  height: 3rem;
+  padding: 0.9375rem 1.25rem;
+}
+
+.text {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.text-primary {
+  color: #6C41D9;
+}
+
+.text-primary:hover, .text-primary:focus, .text-primary:active, .text-primary.active {
+  color: #5834B1;
+}
+
+.text-disabled {
+  color: #929BA0;
+}
+
+.link {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+.link-primary {
+  color: #556068;
+}
+
+.link-primary:hover, .link-primary:focus, .link-primary:active, .link-primary.active {
+  color: #02020B;
+}
+
+.link-disabled {
+  color: #929BA0;
+}
+
+.input {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.input-primary {
+  color: #929BA0;
+  border: 1px solid #EFF0F1;
+  border-radius: 12px;
+  width: 16.875rem;
+  height: 3.125rem;
+  text-indent: 10px;
+  caret-color: #6C41D9;
+}
+
+.input-primary:hover, .input-primary:focus, .input-primary:active, .input-primary.active {
+  color: #02020B;
+  border: 1px solid #6C41D9;
+}
+
+.input-primary::-webkit-input-placeholder {
+  color: #929BA0;
+}
+
+.input-primary:-ms-input-placeholder {
+  color: #929BA0;
+}
+
+.input-primary::-ms-input-placeholder {
+  color: #929BA0;
+}
+
+.input-primary::placeholder {
+  color: #929BA0;
+}
+
+.input-disabled {
+  color: #929BA0;
+  background-color: #EFF0F1;
+  border: #DEE1E3;
+}
+
+.input-blink-close::-webkit-input-placeholder {
+  color: #DEE1E3;
+}
+
+.input-blink-close:-ms-input-placeholder {
+  color: #DEE1E3;
+}
+
+.input-blink-close::-ms-input-placeholder {
+  color: #DEE1E3;
+}
+
+.input-blink-close::placeholder {
+  color: #DEE1E3;
+}
+
+.typography-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.typography-cards .typography-card {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30% 0 0px;
+          flex: 30% 0 0;
+}
+
+.typography-cards .typography-card .typography-list ul {
+  padding: 0;
+  margin: 30px 0px;
+}
+
+.typography-cards .typography-card .typography-list ul li {
+  list-style: none;
+}
+
+.typography-cards .typography-card .typography-list ul li .typography-section {
+  margin-bottom: 40px;
+}
+
+.button-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.button-cards .button-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.button-cards .button-card .button-subtitle {
+  margin-top: 30px;
+}
+
+.button-cards .button-card .button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.button-cards .button-card .button-list .button {
+  -webkit-box-flex: 200px;
+      -ms-flex: 200px 0 0px;
+          flex: 200px 0 0;
+}
+
+.button-cards .button-card .button-list .button h5 {
+  margin-top: 10px;
+}
+
+.text-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.text-cards .text-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-cards .text-card .text-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.text-cards .text-card .text-list .text-box {
+  -webkit-box-flex: 200px;
+      -ms-flex: 200px 0 0px;
+          flex: 200px 0 0;
+}
+
+.text-cards .text-card .text-list .text-box h5 {
+  margin-top: 10px;
+}
+
+.link-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.link-cards .link-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.link-cards .link-card .link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.link-cards .link-card .link-list .link-box {
+  -webkit-box-flex: 200px;
+      -ms-flex: 200px 0 0px;
+          flex: 200px 0 0;
+}
+
+.link-cards .link-card .link-list .link-box h5 {
+  margin-top: 10px;
+}
+
+.input-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.input-cards .input-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input-cards .input-card .input-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.input-cards .input-card .input-list .input-box {
+  -webkit-box-flex: 335px;
+      -ms-flex: 335px 0 0px;
+          flex: 335px 0 0;
+}
+
+.input-cards .input-card .input-list .input-box h5 {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=custom.css.map */

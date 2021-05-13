@@ -1,0 +1,24 @@
+$font-family: 'Nunito', sans-serif;
+$font-size-base: 16px;
+$font-weight-base: 400;
+$line-height-base: 1.2;
+$black-color: #02020B;
+$white-color: #ffffff   ;
+$primary-color: #6C41D9;
+$hover-primary-color: #5834B1;
+$secondary-color: #FDBF2D;
+$hover-secondary-color: #EEAF1B;
+$color-gray-10: #EFF0F1;
+$color-gray-20: #DEE1E3;
+$color-gray-70: #929BA0;
+$color-gray: #556068;
+$body-color: $black-color ;
+$body-bg: #ffffff;
+$border-radius: 12px;
+$input-border: 1px solid #EFF0F1;
+$text-indent: 10px;
+
+
+@function rem($value) {
+    @return ($value / 16) + rem;
+}
