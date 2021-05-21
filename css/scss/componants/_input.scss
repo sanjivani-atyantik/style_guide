@@ -1,0 +1,151 @@
+.input {
+    @include input;
+}
+
+.input-primary {
+    @include input-primary;
+}
+
+.input-blink-close {
+    @include input-blink-close;
+}
+
+.input-error {
+    @include input-error;
+}
+
+.input-filled {
+    @include input-filled;
+}
+
+.checkbox-primary {
+    @include checkbox-primary;
+}
+
+.checkbox-favorite {
+    @include checkbox-favorite;
+}
+
+.radio-primary {
+    @include radio-primary;
+}
+
+.input-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .input-card {
+        display: flex;
+        flex-direction: column;
+
+        .input-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin: 20px -20px -10px -15px;
+
+            .input-box {
+                flex: 335px 0 0;
+                padding: 10px;
+
+                h5 {
+                    margin-top: 10px;
+                }
+
+                p {
+                    color: $error-color;
+                    position: absolute;
+                    font-size: rem(12);
+                }
+            }
+        }
+    }
+}
+
+.close-icon {
+    border: 1px solid transparent;
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+    left: 270px;
+    bottom: 36px;
+    opacity: 0;
+}
+
+.input-primary:focus + .close-icon {
+    opacity: 1;
+}
+
+.checkbox-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .checkbox-card {
+        display: flex;
+        flex-direction: column;
+
+        .checkbox-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            .checkbox-box {
+                flex: 300px 0 0;
+                padding: 10px;
+
+                h5 {
+                    margin-top: 10px;
+                }
+
+                p {
+                    color: $error-color;
+                    position: absolute;
+                    font-size: rem(12);
+                }
+            }
+        }
+    }
+}
+
+.radio-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .radio-card {
+        display: flex;
+        flex-direction: column;
+
+        .radio-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            .radio-box {
+                flex: 300px 0 0;
+                padding: 10px;
+
+                h5 {
+                    margin-top: 10px;
+                }
+
+                p {
+                    color: $error-color;
+                    position: absolute;
+                    font-size: rem(12);
+                }
+            }
+        }
+    }
+}

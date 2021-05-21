@@ -1,0 +1,126 @@
+.banner-card {
+    display: flex;
+    position: relative;
+
+    .banner-image {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 67.2%;
+
+        img {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .banner-content {
+        position: absolute;
+        bottom: rem(44);
+        left: rem(44);
+        right: rem(44);
+        z-index: 10;
+
+        .banner-title {
+            font-family: $font-family;
+            font-size: rem(48);
+            line-height: rem(56);
+            font-weight: 700;
+            color: $black-color;
+            margin-bottom: rem(24);
+            display: -webkit-box;
+            height: rem(112);
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-transform: initial;
+            text-overflow: ellipsis;
+        }
+
+        .banner-action {
+            background: $primary-color;
+            padding: rem(8) rem(20);
+            border-radius: rem(12);
+            color: $white-color;
+            font-size: rem(16);
+            line-height: rem(16);
+        }
+    }
+
+    .banner-content-sm {
+        position: absolute;
+        bottom: rem(24);
+        left: rem(24);
+        right: rem(24);
+        z-index: 10;
+
+        .banner-title-sm {
+            font-family: $font-family;
+            font-size: rem(32);
+            line-height: rem(40);
+            font-weight: 700;
+            color: $black-color;
+            margin-bottom: rem(0);
+            display: -webkit-box;
+            height: rem(80);
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-transform: initial;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.banner-slide {
+    margin-top: rem(60);
+
+    &-image {
+        position: relative;
+    }
+
+    &-content {
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+        font-size: rem(28);
+        line-height: rem(36);
+        font-family: $font-family;
+        font-weight: 700;
+        color: $black-color;
+        margin: rem(20);
+        display: -webkit-box;
+        height: rem(72);
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-transform: initial;
+        text-overflow: ellipsis;
+
+        @media (max-width: 375px) {
+            font-size: rem(18);
+            line-height: rem(24);
+            height: rem(48);
+        }
+    }
+}
+
+.banner-grid-section {
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.banner-slide-section {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block;
+    }
+}

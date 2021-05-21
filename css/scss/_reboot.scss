@@ -28,7 +28,7 @@ html {
 //    the inherit value on things like <th> elements.
 body {
     margin: 0; // 1
-    padding: 50px;
+    padding: rem(50);
     font-family: $font-family;
     font-size: $font-size-base;
     font-weight: $font-weight-base;
@@ -39,6 +39,10 @@ body {
     overflow-x: hidden;
     min-height: 100%;
     position: relative;
+
+    @media (max-width: 768px) {
+        padding: rem(15);
+    }
 }
 
 a {

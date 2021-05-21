@@ -227,49 +227,83 @@
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary input-disabled" type="text" placeholder="Where are you?">
+                    <input class="input-primary disabled" disabled type="text" placeholder="Where are you?">
                     <h5>disabled</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary active input-blink-close" type="text" placeholder="Where are you?">
-                    <button class="close-icon" type="reset"></button>
+                    <input class="input-primary input-blink-close" type="text" placeholder="Where are you?">
+                    <button class="close-icon" type="reset">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="#EFF0F1" />
+                            <path d="M13.6551 6.34493L6.34491 13.6551" stroke="#929BA0" stroke-width="1.5"
+                                stroke-linecap="round" />
+                            <path d="M13.6551 13.6551L6.34489 6.34493" stroke="#929BA0" stroke-width="1.5"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
                     <h5>active 1</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary active input-blink-close" type="text" placeholder="Where are you?">
+                    <input class="input-primary input-blink-close" type="text" placeholder="Where are you?">
                     <h5>active 2</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary" type="password" placeholder="******">
+                    <input class="input-primary" type="password" value="12345">
+                    <button class="close-icon">
+                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.5986 15.1878C15.5198 15.188 15.4417 15.1725 15.3689 15.1423C15.2961 15.1121 15.2301 15.0678 15.1745 15.012L1.97567 1.81316C1.8679 1.69973 1.80872 1.5487 1.81072 1.39225C1.81272 1.23581 1.87576 1.08634 1.98639 0.975708C2.09702 0.865077 2.24649 0.80204 2.40293 0.800037C2.55938 0.798034 2.71041 0.857224 2.82384 0.964986L16.0226 14.1638C16.1065 14.2477 16.1636 14.3546 16.1867 14.4709C16.2098 14.5873 16.198 14.7078 16.1526 14.8174C16.1072 14.927 16.0303 15.0207 15.9317 15.0866C15.8331 15.1526 15.7172 15.1878 15.5986 15.1878ZM8.69918 10.2326L6.75724 8.2907C6.74611 8.27966 6.7318 8.27239 6.71633 8.26991C6.70086 8.26742 6.68499 8.26984 6.67097 8.27683C6.65694 8.28382 6.64546 8.29503 6.63814 8.30889C6.63081 8.32274 6.62801 8.33854 6.63012 8.35407C6.70852 8.85788 6.94508 9.32372 7.30562 9.68426C7.66616 10.0448 8.132 10.2814 8.63582 10.3598C8.65134 10.3619 8.66714 10.3591 8.681 10.3517C8.69485 10.3444 8.70606 10.3329 8.71305 10.3189C8.72004 10.3049 8.72247 10.289 8.71998 10.2736C8.71749 10.2581 8.71022 10.2438 8.69918 10.2326ZM9.29913 5.7443L11.2441 7.6885C11.2552 7.69969 11.2695 7.7071 11.2851 7.70968C11.3006 7.71225 11.3166 7.70986 11.3307 7.70284C11.3448 7.69583 11.3564 7.68455 11.3637 7.6706C11.371 7.65665 11.3738 7.64074 11.3716 7.62513C11.2934 7.12064 11.0566 6.65412 10.6956 6.29312C10.3346 5.93213 9.86812 5.69539 9.36362 5.61719C9.348 5.61478 9.33202 5.61737 9.31795 5.62459C9.30389 5.6318 9.29246 5.64328 9.28531 5.65738C9.27816 5.67147 9.27564 5.68747 9.27813 5.70308C9.28061 5.71869 9.28796 5.73312 9.29913 5.7443Z"
+                                fill="#929BA0" />
+                            <path
+                                d="M17.8109 8.63941C17.935 8.44457 18.0007 8.2182 18 7.98717C17.9993 7.75614 17.9324 7.53016 17.8071 7.33603C16.815 5.80167 15.5277 4.49829 14.0849 3.5665C12.4864 2.53459 10.724 1.98901 8.98719 1.98901C8.07156 1.99027 7.16215 2.13956 6.29418 2.4311C6.26989 2.43918 6.24806 2.45334 6.23079 2.47224C6.21352 2.49114 6.20138 2.51415 6.19552 2.53907C6.18965 2.56399 6.19026 2.59 6.1973 2.61461C6.20433 2.63923 6.21754 2.66164 6.23568 2.6797L8.00702 4.45104C8.02542 4.46948 8.04831 4.4828 8.07343 4.48971C8.09854 4.49661 8.12502 4.49685 8.15026 4.49041C8.75068 4.34409 9.37865 4.35482 9.97372 4.52155C10.5688 4.68828 11.1109 5.0054 11.5479 5.44238C11.9849 5.87936 12.302 6.42149 12.4687 7.01656C12.6355 7.61163 12.6462 8.2396 12.4999 8.84002C12.4935 8.8652 12.4938 8.89161 12.5007 8.91665C12.5076 8.9417 12.5209 8.96452 12.5392 8.98288L15.0871 11.5327C15.1136 11.5592 15.1491 11.5749 15.1866 11.5765C15.2241 11.5782 15.2609 11.5657 15.2896 11.5417C16.2704 10.7057 17.1202 9.7274 17.8109 8.63941ZM8.99918 11.5881C8.45426 11.5882 7.91645 11.4645 7.42629 11.2264C6.93612 10.9883 6.50641 10.6421 6.16954 10.2138C5.83268 9.78544 5.59745 9.28623 5.4816 8.75377C5.36575 8.2213 5.3723 7.66949 5.50075 7.13992C5.50712 7.11474 5.50684 7.08833 5.49994 7.06329C5.49304 7.03825 5.47975 7.01543 5.46138 6.99706L2.95511 4.48966C2.92853 4.46306 2.89293 4.4474 2.85536 4.44581C2.81779 4.44421 2.78099 4.45678 2.75225 4.48104C1.83771 5.26134 0.989908 6.21076 0.214853 7.32028C0.0791851 7.515 0.0044671 7.74566 0.000194094 7.98295C-0.00407891 8.22023 0.062286 8.45343 0.190856 8.65291C1.18114 10.2026 2.45528 11.5079 3.87602 12.4269C5.47675 13.463 7.19635 13.9879 8.98719 13.9879C9.91205 13.9854 10.8309 13.8393 11.7109 13.5548C11.7355 13.547 11.7575 13.533 11.7751 13.5142C11.7926 13.4953 11.805 13.4723 11.8111 13.4473C11.8171 13.4223 11.8167 13.3962 11.8097 13.3714C11.8027 13.3466 11.7895 13.3241 11.7713 13.3059L9.99134 11.5263C9.97298 11.5079 9.95016 11.4946 9.92512 11.4877C9.90007 11.4808 9.87367 11.4805 9.84848 11.4869C9.57041 11.5543 9.2853 11.5883 8.99918 11.5881Z"
+                                fill="#929BA0" />
+                        </svg>
+
+                    </button>
                     <h5>password 1</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary active input-blink-close" type="text" placeholder="Typing...">
-                    <button class="close-icon" type="reset"></button>
+                    <input class="input-primary" type="text" value="Typing">
+                    <button class="close-icon" type="reset">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="#EFF0F1" />
+                            <path d="M13.6551 6.34493L6.34491 13.6551" stroke="#929BA0" stroke-width="1.5"
+                                stroke-linecap="round" />
+                            <path d="M13.6551 13.6551L6.34489 6.34493" stroke="#929BA0" stroke-width="1.5"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
                     <h5>typing 1</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary active input-blink-close" type="text" placeholder="Typing...">
+                    <input class="input-primary" type="text" value="Typing">
                     <h5>typing 2</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary" type="password" placeholder="******">
+                    <input class="input-primary" type="password" value="12345">
+                    <button class="close-icon">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.00075 8.39994C10.3262 8.39994 11.4007 7.32543 11.4007 5.99996C11.4007 4.67448 10.3262 3.59998 9.00075 3.59998C7.67528 3.59998 6.60077 4.67448 6.60077 5.99996C6.60077 7.32543 7.67528 8.39994 9.00075 8.39994Z" fill="#929BA0"/>
+                            <path d="M17.8071 5.34746C16.8149 3.81297 15.5275 2.50948 14.0845 1.57761C12.4882 0.545622 10.7257 0 8.98794 0C7.39345 0 5.82558 0.455622 4.32784 1.35412C2.80048 2.27023 1.41674 3.6086 0.214871 5.33171C0.0791917 5.52645 0.00446747 5.75713 0.000194111 5.99443C-0.00407925 6.23174 0.0622912 6.46496 0.190872 6.66445C1.18124 8.21432 2.45586 9.51968 3.87635 10.4388C5.47571 11.4749 7.19695 11.9999 8.98794 11.9999C10.7395 11.9999 12.5058 11.4588 14.0954 10.4354C15.5376 9.50656 16.8224 8.19819 17.8109 6.65095C17.935 6.45609 18.0007 6.22971 18 5.99866C17.9993 5.76761 17.9324 5.54161 17.8071 5.34746ZM9.00068 9.59993C8.28868 9.59993 7.59266 9.3888 7.00065 8.99323C6.40863 8.59766 5.94722 8.03542 5.67474 7.37761C5.40227 6.7198 5.33098 5.99597 5.46988 5.29764C5.60879 4.59931 5.95165 3.95786 6.45512 3.45439C6.95858 2.95093 7.60004 2.60806 8.29836 2.46916C8.99669 2.33025 9.72053 2.40154 10.3783 2.67402C11.0361 2.94649 11.5984 3.40791 11.994 3.99992C12.3895 4.59193 12.6007 5.28795 12.6007 5.99996C12.5996 6.9544 12.2199 7.86943 11.545 8.54432C10.8702 9.21921 9.95512 9.59884 9.00068 9.59993Z" fill="#929BA0"/>
+                            </svg>
+                            
+                    </button>
                     <h5>password 2</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary input-filled" type="text" placeholder="Filled">
+                    <input class="input-primary input-filled" type="text" value="Filled">
                     <h5>filled</h5>
                 </div>
 
                 <div class="input-box">
-                    <input class="input-primary input-error" type="text" placeholder="Filled">
+                    <input class="input-primary input-error" type="text" value="Filled">
                     <p>Error message</p>
                     <h5>filled</h5>
                 </div>
@@ -300,25 +334,17 @@
                     </div>
                     <h5>hover</h5>
                 </div>
-
-                <div class="checkbox-box">
-                    <div class="checkbox-primary disabled">
-                        <input type="checkbox" disabled>
-                        <span class="chk-overlay"></span>
-                    </div>
-                    <h5>disabled + Unchecked</h5>
-                </div>
-
+                
                 <div class="checkbox-box">
                     <div class="checkbox-primary disabled">
                         <input type="checkbox" checked="checked" disabled>
                         <span class="chk-overlay"></span>
                     </div>
-                    <h5>disabled + checked</h5>
+                    <h5>disabled</h5>
                 </div>
 
                 <div class="checkbox-box">
-                    <div class="checkbox-primary-outline">
+                    <div class="checkbox-primary">
                         <input type="checkbox">
                         <span class="chk-overlay"></span>
                     </div>
@@ -326,27 +352,19 @@
                 </div>
 
                 <div class="checkbox-box">
-                    <div class="checkbox-primary-outline active">
-                        <input type="checkbox" checked="checked">
+                    <div class="checkbox-primary active">
+                        <input type="checkbox">
                         <span class="chk-overlay"></span>
                     </div>
                     <h5>hover</h5>
                 </div>
 
                 <div class="checkbox-box">
-                    <div class="checkbox-primary-outline disabled">
+                    <div class="checkbox-primary disabled">
                         <input type="checkbox" disabled>
                         <span class="chk-overlay"></span>
                     </div>
-                    <h5>disabled + Unchecked</h5>
-                </div>
-
-                <div class="checkbox-box">
-                    <div class="checkbox-primary-outline disabled">
-                        <input type="checkbox" checked="checked" disabled>
-                        <span class="chk-overlay"></span>
-                    </div>
-                    <h5>disabled + checked</h5>
+                    <h5>disabled</h5>
                 </div>
             </div>
         </div>
@@ -377,14 +395,6 @@
 
                 <div class="radio-box">
                     <div class="radio-primary disabled">
-                        <input type="radio" disabled>
-                        <span class="rdb-overlay"></span>
-                    </div>
-                    <h5>disabled + Unchecked</h5>
-                </div>
-
-                <div class="radio-box">
-                    <div class="radio-primary disabled">
                         <input type="radio" checked="checked" disabled>
                         <span class="rdb-overlay"></span>
                     </div>
@@ -392,7 +402,7 @@
                 </div>
 
                 <div class="radio-box">
-                    <div class="radio-primary-outline">
+                    <div class="radio-primary">
                         <input type="radio">
                         <span class="rdb-overlay"></span>
                     </div>
@@ -400,7 +410,7 @@
                 </div>
 
                 <div class="radio-box">
-                    <div class="radio-primary-outline active">
+                    <div class="radio-primary active">
                         <input type="radio" checked="checked">
                         <span class="rdb-overlay"></span>
                     </div>
@@ -408,19 +418,11 @@
                 </div>
 
                 <div class="radio-box">
-                    <div class="radio-primary-outline disabled">
+                    <div class="radio-primary disabled">
                         <input type="radio" disabled>
                         <span class="rdb-overlay"></span>
                     </div>
                     <h5>disabled + unchecked</h5>
-                </div>
-
-                <div class="radio-box">
-                    <div class="radio-primary-outline disabled">
-                        <input type="radio" checked="checked" disabled>
-                        <span class="rdb-overlay"></span>
-                    </div>
-                    <h5>disabled + checked</h5>
                 </div>
             </div>
         </div>

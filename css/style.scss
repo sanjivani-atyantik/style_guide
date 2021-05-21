@@ -2,5 +2,11 @@
 @import 'scss/variables';
 @import 'scss/reboot';
 @import 'scss/mixin';
-@import 'https://unpkg.com/swiper/swiper-bundle.min.css';
+@import 'scss/typography';
+@import 'scss/grid';
+@import 'scss/componants/button';
+@import 'scss/componants/input';
 @import 'scss/custom';
+@import 'scss/banner';
+@import 'https://unpkg.com/swiper/swiper-bundle.min.css';
+@import 'scss/swiperslider.scss';
